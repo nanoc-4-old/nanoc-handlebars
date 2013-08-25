@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    nanoc-handlebars (1.0.0)
+      nanoc-core
+      systemu
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.0.6)
+    nanoc-core (4.0.0a1)
+    rake (10.1.0)
+    systemu (2.5.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  nanoc-handlebars!
+  rake
