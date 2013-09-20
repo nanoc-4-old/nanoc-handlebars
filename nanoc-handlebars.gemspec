@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [ 'LICENSE', 'README.md', 'NEWS.md' ]
 
   s.add_runtime_dependency('nanoc-core')
-  s.add_runtime_dependency('hbs')
+  s.add_runtime_dependency('handlebars')
   s.add_development_dependency('bundler')
 end

@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'systemu'
+require 'handlebars'
 
 module Nanoc::Handlebars
 

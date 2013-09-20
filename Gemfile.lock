@@ -2,16 +2,24 @@ PATH
   remote: .
   specs:
     nanoc-handlebars (1.0.0)
+      handlebars
       nanoc-core
-      systemu
 
 GEM
   remote: https://rubygems.org/
   specs:
+    commonjs (0.2.6)
+    handlebars (0.4.0)
+      commonjs (~> 0.2.3)
+      therubyracer (~> 0.11.1)
+    libv8 (3.11.8.17)
     minitest (5.0.6)
     nanoc-core (4.0.0a1)
     rake (10.1.0)
-    systemu (2.5.2)
+    ref (1.0.5)
+    therubyracer (0.11.4)
+      libv8 (~> 3.11.8.12)
+      ref
 
 PLATFORMS
   ruby
